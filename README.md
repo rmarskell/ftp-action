@@ -33,4 +33,5 @@ password | FTP password | Yes | N/A
 localDir | The local directory to copy | No | .
 remoteDir | The remote directory to copy to | No | .
 forceSsl | Force SSL encryption | No | false
-sslAuth | Set auth type | No | 
+sslAuth | Set auth type | No | N/A
+initialProt | Set initial PROT value | No | N/A

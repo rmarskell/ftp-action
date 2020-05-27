@@ -27,6 +27,10 @@ inputs:
     description: 'Remote directory'
     required: false
     default: '.'
+  initialProt:
+    description: 'Specifies initial PROT setting for FTPS connections. Should be one of: C, S, E, P,  or empty. Default is empty which means unknown, so that lftp will use PROT command unconditionally. If PROT command turns out to be unsupported,  then  Clear  mode  would  be assumed.'
+    required: false,
+    default: ''
 runs:
   using: 'docker'
   image: 'Dockerfile'
